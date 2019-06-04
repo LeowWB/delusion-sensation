@@ -10,7 +10,7 @@ puts "Raw file location: "
 raw_file = File.open gets.chomp, "r"
 
 raw_file.each do |l|
-  raw_text.append l.downcase.split(/\W+/)
+  raw_text.append l.downcase.split(/[^\w$&-]+/)
 end
 
 raw_file.close
