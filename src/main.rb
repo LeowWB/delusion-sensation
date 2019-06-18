@@ -21,6 +21,7 @@ def main
   raw_text = raw_text_list.join " "
 
   write out_file_name, raw_text
+  puts "Done!"
 end
 
 def get_file_names
