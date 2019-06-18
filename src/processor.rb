@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Processor
   def process_list raw_text_list, filter_list
     raw_text_list.select do |w|
