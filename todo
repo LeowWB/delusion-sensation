@@ -1,0 +1,5 @@
+verify joiner works even w multiple words like
+	bak kut teh
+
+also add logic to account for hyphens and apostrophes and whatnot
+
